@@ -1,0 +1,26 @@
+/* 
+  Custom styles to supplement Tailwind (if desired).
+  Keep it minimal for a clean, simple design.
+*/
+
+/* Example: Increase the default font size a bit */
+body {
+    font-size: 1.1rem;
+
+    .voiceflow-webchat__window {
+        width: 600px !important; 
+        height: 600px !important; /* if desired */
+      }
+      .voiceflow-webchat-bubble { 
+        width: 60px !important; 
+        height: 60px !important; 
+      }
+  }
+  
+  /* Example: Adjust spacing for smaller screens if needed */
+  @media (max-width: 1024px) {
+    /* The "hidden lg:block" class in the reserved section
+       ensures it is hidden on small screens. 
+       If you'd like to show it, remove or change these classes. */
+  }
+  
